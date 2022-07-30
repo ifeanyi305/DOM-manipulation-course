@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(90, 90, 117);
+}
+.container{
+    background-color: rgb(90, 90, 117);
+    border: 2px solid white;
+    border-radius: 6px;
+}
+#main-heading{
+  padding: 20px 10px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  font-family:  Geneva,  sans-serif;
+}
+ul{
+  background-color: white;
+  max-width: 85%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.list-items{
+  list-style: none;
+  text-align: center;
+  padding: 7px;
+  border: 1px solid black;
+}
+.p-tag{
+  /* display: flex;
+  justify-content: flex-end;
+  flex-direction: column; */
+  margin-left: 20px;
+}
+h4{
+  text-align: center;
+  margin-top: 20px;
+}
+a{
+  text-decoration: none;
+  color: bisque;
+  transition: all 5s ease-in 5s;
+}
+a:hover{
+  text-decoration: underline;
+}
+body{
+  background-color: rgb(90, 90, 117);
+}
+.main-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  max-width: 80%;
+  margin: auto;
+}
+#heading{
+  font-size: 2vw;
+  font-family: Verdana,  sans-serif;
+  color: white;
+}
+.sub-container{
+  padding: 20px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width:600px){
+  .main-container{
+    flex-direction: column;
+    gap: 1em;
+    min-height: 50vh;
+    max-width: 40%;
+    justify-content: space-evenly;
+  }
+  #heading{
+    font-size: 4vw;
+  }
+  button{
+    padding: 2px 10px;
+    text-align: center;
+    margin: 25px;
+  }
+  .third-container{
+    flex-direction: column;
+    gap: 5px;
+  }
+  .hidden-content-boxes{
+    margin: auto;
+  }
+  .reveal-btn-boxes{
+    margin: auto;
+  }
+}
+button{
+  background-color: rgb(90, 90, 117);
+  border: 2px solid white;
+  padding: 2px 20px;
+  margin: 25px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+.next-project{
+  text-align: center;
+}
+.third-container{
+  display: flex;
+  justify-content: center;
+}
+.hidden-content-boxes{
+  border: 2px solid white;
+  border-radius: 5px;
+  text-align: center;
+  width: 35%;
+  color: white;
+  display: none;
+  margin: auto;
+}
+.reveal-btn-boxes{
+  display: block;
+  min-height: 26.5vh;
+  max-width: 20%;
+  border-radius: 5px;
+  text-align: center;
+}
+.body{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(90, 90, 117);
+}
+.fourth-container{
+  border: 5px solid white;
+  width: 50%;
+  border-radius: 6px;
+  padding: 60px 30px;
+}
+.div2{
+  border: 3px solid white;
+  padding: 20px 20px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 4px;
+}
+.div1{
+  border: 2px solid white;
+  padding: 20px 20px;
+  text-align: center;
+  border-radius: 4px;
+}
+button{
+  margin: auto;
+}
+.body2{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  min-height: 70vh;
+  align-items: center;
+}
+#sports{
+  padding: 20px 30px 20px 30px;
+  list-style: none;
+  background-color: rgb(90, 90, 117);
+  border: 2px solid white;
+  border-radius: 5px;
+}
+#football{
+  text-align: center;
+  padding: 7px 15px 7px 15px;
+  background-color: rgb(90, 90, 117);
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 4px;
+  color: white;
+}
+
